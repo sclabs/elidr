@@ -1,0 +1,25 @@
+<head>
+  <title>elidr</title>
+</head>
+
+<body>
+{{> main}}
+</body>
+
+<template name="main">
+<h1>elidr</h1> 
+<p>a latin poetry elision assistant</p>
+
+<table>
+  <tr>
+    <td>
+      <textarea id="input"></textarea>
+    </td>
+    <td>
+      <p>{{{output}}}</p>
+    </td>
+  </tr>
+</table>
+
+<button class="btn action-elide">elide</button>
+</template>
